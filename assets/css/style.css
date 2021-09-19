@@ -314,9 +314,6 @@ section#started .box{
   padding: 38px 90px;
 }
 
-section#hero-kioson{
-  
-}
 
 section#hero-kioson .left{
   padding: 75px 32px 75px 100px;
@@ -340,4 +337,19 @@ section#hero-kioson .right{
   align-items: center;
   justify-content: center;
   border-radius: 50%;
+}
+
+section#hero-rk .left {
+  padding: 75px 32px 75px 100px;
+}
+
+
+section#hero-rk .right {
+  background-image: url(../images/img-bg-rk.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 75px 100px 75px 32px;
+  display: flex;
+  align-items: center;
 }
