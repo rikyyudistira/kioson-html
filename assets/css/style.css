@@ -87,6 +87,19 @@ body{
   color: #FFF;
 }
 
+.cta-primary:hover{
+  color: #FFF;
+}
+
+.cta-secondary {
+  background-color: var(--secondary-1);
+  color: #FFF;
+}
+
+.cta-secondary:hover {
+  color: #FFF;
+}
+
 .color-primary{
   color: var(--primary);
 }
@@ -314,6 +327,13 @@ section#started .box{
   padding: 38px 90px;
 }
 
+section#started.gudang-pintar .box {
+  background: linear-gradient(134.86deg, #2584AD 25.06%, rgba(146, 235, 255, 0.630573) 80.25%, rgba(255, 181, 81, 0.59) 80.26%);
+  border-radius: 55px;
+  color: white;
+  padding: 38px 90px;
+}
+
 
 section#hero-kioson .left{
   padding: 75px 32px 75px 100px;
@@ -350,6 +370,21 @@ section#hero-rk .right {
   background-position: center;
   background-size: cover;
   padding: 75px 100px 75px 32px;
+  display: flex;
+  align-items: center;
+}
+
+section#hero-gp .left {
+  padding: 75px 32px 75px 100px;
+}
+
+
+section#hero-gp .right {
+  background-image: url(../images/img-bg-gp.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 75px 100px 75px 75px;
   display: flex;
   align-items: center;
 }
