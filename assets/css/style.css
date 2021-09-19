@@ -4,8 +4,8 @@
   --primary-5: #FFFBEF;
   --secondary-1: #2584AD;
   --secondary-5: #F4FCFF;
-  --mono-1: #A7A7A7;
-  --mono-2: #f1f4f6;
+  --mono-1: #E5E5E5;
+  --mono-2: #C4C4C4;
   --mono-3: rgba(185, 185, 188, 0.72);
   --mono-4: rgba(196, 196, 196, 0.09);
   --mono-9: #1A1919;
@@ -37,7 +37,6 @@ body{
     padding-left: 16px;
   }
 }
-
 
 .navbar-light .navbar-nav .nav-link{
   padding-left: 20px;
@@ -120,6 +119,10 @@ body{
   background-color: var(--primary)!important;
 }
 
+.bg-mono-1{
+  background-color: var(--mono-1);
+}
+
 .bg-primary-5{
   background-color: var(--primary-5);
 }
@@ -159,6 +162,10 @@ body{
 
 .text-3xl {
   font-size: 40px;
+}
+
+.text-4xl {
+  font-size: 50px;
 }
 
 .header-title{
@@ -209,7 +216,7 @@ footer{
 }
 
 footer.footer-one{
-  background-color: var(--primary-5);
+  
 }
 
 footer.footer-one .footer-bottom{
@@ -285,8 +292,7 @@ section#ekosistem{
 }
 
 .card-ekosistem .body{
-  padding-top: 18px;
-  padding-left: 24px;
+  padding: 18px 18px 18px 24px;
 }
 
 section#service .left{
@@ -306,4 +312,32 @@ section#started .box{
   border-radius: 55px;
   color: white;
   padding: 38px 90px;
+}
+
+section#hero-kioson{
+  
+}
+
+section#hero-kioson .left{
+  padding: 75px 32px 75px 100px;
+}
+
+section#hero-kioson .right{
+  background-image: url(../images/img-bg-kioson.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 75px 100px 75px 32px;
+  display: flex;
+  align-items: center;
+}
+
+.avatar-circle{
+  background-color: var(--mono-2);
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
 }
