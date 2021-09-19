@@ -16,12 +16,17 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
-    <title>Kioson | Tentang Kami </title>
+    <title>Kioson | Home </title>
     <link rel="shortcut icon" href="https://www.kioson.com//assets/kioson/favicon.ico" type="image/x-icon">
+
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- icon -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.28.0/feather.min.js" integrity="sha512-7x3zila4t2qNycrtZ31HO0NnJr8kg2VI67YLoRSyi9hGhRN66FHYWr7Axa9Y1J9tGYHVBPqIjSE1ogHrJTz51g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -30,7 +35,7 @@
     <!-- custom css -->
     <link rel="stylesheet" href="./assets/css/style.css">
   </head>
-  <body class="">
+  <body class="bg-primary-5">
     <nav class="navbar navbar-expand-lg navbar-light bg-white p-0">
       <div class="container">
         <a class="navbar-brand" href="#">
@@ -42,7 +47,7 @@
   
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="#">Beranda</a>
             </li>
             <li class="nav-item dropdown">
@@ -94,52 +99,238 @@
     </nav>
 
     <main>
-      <section class="header-title">
+
+      <section id="hero">
         <div class="container">
-          <h1 class="typo-title">Tentang Kami</h1>
+          <div class="row">
+            <div class="col-lg-6">
+              <h1 class="typo-title mb-4" style="line-height: 1.5;">
+                Tumbuh Dengan Ekosistem  Pergudangan Digital Sampai Ke Wilayah Pedesaan
+              </h1>
+              <p class="text-xl">
+                Mendorong kolaborasi untuk menutup Digital GAP melalui ekonomi digital sejak 2015
+              </p>
+              <div class="mt-5">
+                <a href="#" class="btn cta-primary btn-lg">
+                  Hubungi Kami
+                </a>
+                <a href="#" class="color-primary ml-5">Tentang Kioson</a>
+              </div>
+              <div class="mt-4 d-flex align-items-center">
+                <img src="./assets/images/idx.svg" alt="">
+                <span class="text-xxs d-inline-block ml-3">
+                  PT Kioson Komersial Indonesia Tbk Listed on <br> 
+                  Indonesia Stock Exchange Since 2018
+                </span>
+                <span class="d-inline-flex ml-3 align-items-center">
+                  <img src="./assets/icons/polygon.svg" alt="">
+                  <span class="text-xl font-weight-bold ml-2">KIOS</span>
+                </span>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <img src="./assets/images/hero.svg" class="img-fluid" alt="">
+            </div>
+          </div>
         </div>
       </section>
-      
-      <section class="side-tab">
-        <div class="row">
-          <div class="col-lg-4 left">
-            <h6 class="color-primary font-normal mb-4">Tentang Kami</h6>
-            <div class="pl-5">
-              <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                <a class="nav-link active" id="v-pills-01-tab" data-toggle="pill" href="#v-pills-01" role="tab" aria-controls="v-pills-01" aria-selected="true">Bisnis Kami</a>
-                <a class="nav-link" id="v-pills-02-tab" data-toggle="pill" href="#v-pills-02" role="tab" aria-controls="v-pills-02" aria-selected="false">CSR</a>
-                <a class="nav-link" id="v-pills-03-tab" data-toggle="pill" href="#v-pills-03" role="tab" aria-controls="v-pills-03" aria-selected="false">Corporate Governance</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-8 right">
-            <div class="tab-content" id="v-pills-tabContent">
-              <div class="tab-pane fade show active" id="v-pills-01" role="tabpanel" aria-labelledby="v-pills-01-tab">
-                <h5 class="font-bold mb-4">Bisnis Kami</h5>
-                <h6 class="font-bold mb-3">PT Kioson Fintech Indonesia (KFI)</h6>
-                <p>
-                  PT Kioson Fintech Indonesia (KFI) didirikan berdasarkan akta pendirian No. 23 
-                  tanggal 19 April 2018 yang dibuat oleh Notaris Kezia Janty Lega, S.H., M.Kn, notaris 
-                  di Jakarta, yang telah diterima dan dicatat oleh Mentri Hukum dan Hak Asasi Manusia 
-                  Republik Indonesia dengan Surat Keputusan No. AHU-0021122.AH.01.01 Tahun 2018. <br> <br>
 
-                  Anggaran dasar KFI telah mengalami perubahan. Perubahan terakhir berdasarkan 
-                  Notaris Bonar Sihombing, SH Nomor 79 tanggal 16 Juli 2018 pada pasal 3 butir 1 
-                  tentang maksud dan tujuan menjadi Perusahaan yang bergerak dalam bidang 
-                  perdangangan dan jasa. Perubahan anggaran dasar terakhir ini telah diterima 
-                  dan dicatat oleh Mentri Hukum dan Hak Asasi Manusia Republik Indonesia dengan 
-                  Surat Keputusan No. AHU-0014571.AH.01.02.TAHUN 2018 tanggal 19 Juli 2018.
-                </p>
+      <section id="fiture">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3">
+              <div class="d-flex align-items-center">
+                <div class="icon-fiture">
+                  <img src="./assets/icons/building.svg" alt="">
+                </div>
+                <h1 class="text-3xl color-primary font-bold mb-0 ml-3">
+                  +80
+                </h1>
               </div>
-              <div class="tab-pane fade" id="v-pills-02" role="tabpanel" aria-labelledby="v-pills-02-tab">2</div>
-              <div class="tab-pane fade" id="v-pills-03" role="tabpanel" aria-labelledby="v-pills-03-tab">3</div>
+              <p class="mb-0 text-xl mt-2">Warehouse Center</p>
+            </div>
+            <div class="col-lg-3">
+              <div class="d-flex align-items-center">
+                <div class="icon-fiture">
+                  <img src="./assets/icons/home.svg" alt="">
+                </div>
+                <h1 class="text-3xl color-primary font-bold mb-0 ml-3">
+                  +80,000
+                </h1>
+              </div>
+              <p class="mb-0 text-xl mt-2">Mitra Warung KIOS</p>
+            </div>
+            <div class="col-lg-3">
+              <div class="d-flex align-items-center">
+                <div class="icon-fiture">
+                  <img src="./assets/icons/bag.svg" alt="">
+                </div>
+                <h1 class="text-3xl color-primary font-bold mb-0 ml-3">
+                  +1Jt
+                </h1>
+              </div>
+              <p class="mb-0 text-xl mt-2">Transaksi per Hari</p>
+            </div>
+            <div class="col-lg-3">
+              <div class="d-flex align-items-center">
+                <div class="icon-fiture">
+                  <img src="./assets/icons/thumb_up.svg" alt="">
+                </div>
+                <h1 class="text-3xl color-primary font-bold mb-0 ml-3">
+                  95%
+                </h1>
+              </div>
+              <p class="mb-0 text-xl mt-2">Kepuasan Konsumen</p>
             </div>
           </div>
         </div>
-      </div>
+      </section>
+
+      <section id="about-us">
+        <img src="./assets/images/ibu-warung.png" class="img-left" alt="">
+        <div class="bg-primary top">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4"></div>
+              <div class="col-lg-8">
+                <p class="mb-0 text-white mb-3">
+                  Kioson merupakan perusahaan Online to Offline (O2O) yang mengintregasikan Offline merchant & Online 
+                  Customer melalui Jaringan Kemitraan, dengan fokus di kota-kota lapis kedua dan ketiga.
+                </p>
+                <h1 class="mb-0 text-white text-xxl font-bold">
+                  Kioson melakukan transformasi jaringan kemitraan <br>
+                  warung & gudang dalam distribusi produk baik produk <br>
+                  fisik ataupun produk digital.
+                </h1>
+                <div class="d-flex align-items-center mt-5">
+                  <a href="#" class="btn btn-light btn-lg bg-white mr-3">
+                    Download Deck
+                    <i class="fas fa-file-invoice ml-2"></i>
+                  </a>
+                  <a href="#" class="text-white ml-4 d-block">Hubungi Kami</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-white bottom">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4"></div>
+              <div class="col-lg-8">
+                <p class="mb-0">Layanan Ekosistem Pergudangan Kami</p>
+                <div class="d-flex align-items-center mt-5">
+                  <img src="./assets/images/about-1.png" alt="" class="mr-3">
+                  <img src="./assets/images/about-2.png" alt="" class="mr-3">
+                  <img src="./assets/images/about-3.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src="./assets/images/ilus-courier.png" class="img-right" alt="">
+      </section>
+
+      <section id="ekosistem">
+        <div class="container">
+          <h1 class="font-bold text-2xl mb-5">Ekosistem Pergudangan Kami</h1>
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <div class="card-ekosistem">
+                <img src="./assets/images/ekosistem-1.png" style="width: 157px;" alt="">
+                <div class="body">
+                  <img src="./assets/images/kioson.png" style="width: 114px;" alt="">
+                  <p class="mb-0 mt-3">
+                    Melengkapi warung / toko konvensional 
+                    dengan produk digital untuk melakukan 
+                    transaksi keuangan & pembayaran
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="card-ekosistem">
+                <img src="./assets/images/ekosistem-2.png" style="width: 157px;" alt="">
+                <div class="body">
+                  <img src="./assets/images/retail-kita.png" style="width: 114px;" alt="">
+                  <p class="mb-0 mt-3">
+                    Membuat Warung menjadi mitra gudang 
+                    yang membantu produsen produk FMCG 
+                    untuk menjual kepada konsumen langsung
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="card-ekosistem">
+                <img src="./assets/images/ekosistem-3.png" style="width: 157px;" alt="">
+                <div class="body">
+                  <img src="./assets/images/gudang-pintar.png" style="width: 114px;" alt="">
+                  <p class="mb-0 mt-3">
+                    Menjadi asisten logistik pintar yang
+                    membantu UMKM untuk mengurus 
+                    transaksi, packaging & pengiriman barang
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="service">
+        <div class="row">
+          <div class="col-lg-5 bg-secondary-1 left">
+            <h1 class="text-white text-xxl font-bold mb-5">
+              Melalui Mitra, Kami Mendistribusikan
+              Kebutuhan Produk Harian Bagi +500rb
+              Pelanggan Setiap Hari
+            </h1>
+            <iframe 
+              width="100%" 
+              height="267" 
+              src="https://www.youtube.com/embed/FneCI4_Xuls" 
+              title="YouTube video player" 
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen></iframe>
+            <p class="mb-0 text-white mt-4">
+              Jaringan warung Kioson tersebar di 34 provinsi dan melalui layanan
+              RetailKita, saat ini Kioson telah membangngudang pusat sebagai 
+              logistic hub di +80 lokasi di Jawa Tengah.
+            </p>
+          </div>
+          <div class="col-lg-7 bg-white right">
+            <img src="./assets/images/produk-1.png" class="img-fluid mb-5" alt="">
+            <img src="./assets/images/produk-2.png" class="img-fluid mb-5" alt="">
+            <img src="./assets/images/produk-3.png" class="img-fluid mb-5" alt="">
+            <img src="./assets/images/produk-4.png" class="img-fluid" alt="">
+          </div>
+        </div>
+      </section>
+
+      <section id="started">
+        <div class="box">
+          <div class="row">
+            <div class="col-lg-8">
+              <p class="mb-3">#MajuBersamaKIOSON</p>
+              <h1 class="text 3xl font-bold mb-5">
+                Mulai Mendistribusikan <br>
+                Produk Anda Dengan Efektif <br>
+                Sampai Wilayah Pedesaan
+              </h1>
+              <a href="#" class="text-xl text-white">Hubungi Kami <i class="far fa-arrow-alt-circle-right ml-2"></i></a>
+            </div>
+            <div class="col-lg-4">
+              <img src="./assets/images/img-started.png" class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+
     </main>
 
-    <footer>
+    <footer class="footer-one">
       <div class="container">
         <div class="row">
           <div class="col-lg-2">
@@ -227,5 +418,11 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 
+    <!-- owl carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
+    <!-- script -->
+    <script src="./assets/js/script.js"></script>
+  
   </body>
 </html>
